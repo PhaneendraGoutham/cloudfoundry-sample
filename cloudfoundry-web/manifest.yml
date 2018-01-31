@@ -11,6 +11,4 @@ applications:
 
   env:
     TRUST_CERTS: api.system.cf-mimacom.com
-    management.password: production
-    management.username: secret
     JBP_CONFIG_DEBUG: '{enabled: true}'
