@@ -1,6 +1,4 @@
 spring:
-  rabbitmq:
-    host: example.com
   cloud:
     services:
       registrationMethod: route
