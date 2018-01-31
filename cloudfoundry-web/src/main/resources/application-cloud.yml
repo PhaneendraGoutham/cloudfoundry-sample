@@ -1,0 +1,9 @@
+spring:
+  rabbitmq:
+    host: example.com
+  cloud:
+    services:
+      registrationMethod: route
+
+logging:
+  file: application.log

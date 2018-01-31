@@ -1,0 +1,13 @@
+spring:
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    virtual-host:
+    username: guest
+    password: guest
+
+eureka:
+  client:
+    service-url:
+       defaultZone: http://${DOCKER_HOST_IP}:8761/eureka

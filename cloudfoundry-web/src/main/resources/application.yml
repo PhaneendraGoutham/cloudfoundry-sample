@@ -1,0 +1,19 @@
+server.port: 9797
+
+security:
+  basic:
+    enabled: false
+    realm: Spring-Management
+  user:
+    name: root
+    password: secret
+
+management:
+  context-path: /management
+
+
+logging:
+  level:
+    org.springframework.boot.autoconfigure: DEBUG
+    org.springframework.cloud: DEBUG
+    io.pivotal.spring: DEBUG
