@@ -11,7 +11,6 @@ security:
 management:
   context-path: /management
 
-
 logging:
   level:
     org.springframework.boot.autoconfigure: DEBUG
