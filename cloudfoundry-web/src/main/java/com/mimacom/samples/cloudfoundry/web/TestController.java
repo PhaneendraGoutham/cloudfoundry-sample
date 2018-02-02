@@ -19,13 +19,13 @@ import java.util.Map;
 @RequestMapping(value = "/api/test")
 public class TestController {
 
-    @Autowired(required = false)
+    @Autowired
     private ConnectionFactory rabbitConnectionFactory;
 
-    @Autowired(required = false)
+    @Autowired
     private EurekaClient eurekaClient;
 
-    @Autowired(required = false)
+    @Autowired
     private RabbitTemplate rabbitTemplate;
 
     @RequestMapping(method = RequestMethod.GET)
