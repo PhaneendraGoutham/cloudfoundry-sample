@@ -1,4 +1,7 @@
 spring:
+  rabbitmq:
+    # or use localhost nothing will work to get the RabbitAutoConfiguration to be inovked
+    host: ignore.example.com
   cloud:
     services:
       registrationMethod: route
